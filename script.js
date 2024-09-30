@@ -105,6 +105,6 @@ function fetchMigrationData(municipality) {
 function getColor(municipality) {
   const positive = Math.random() * 100;
   const negative = Math.random() * 100;
-  const hue = Math.min((positive / (negative || 1)) ** 3 * 60, 120); // Prevent division by zero
+  const hue = Math.min((positive / (negative || 1)) ** 3 * 60, 120);
   return `hsl(${hue}, 75%, 50%)`;
 }
