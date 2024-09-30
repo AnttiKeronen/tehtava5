@@ -1,10 +1,11 @@
-body {
-  font-family: sans-serif;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 #map {
   height: 97vh;
   width: 100%;
-  margin: 0;
-  padding: 0;
 }
